@@ -1,0 +1,7 @@
+url args:"http://localhost:4200"
+
+type selector:"SL({textbox 'Username'})" args:"test-01"
+type selector:"By.name('Password')" args:"password"
+click selector:"SL({button 'Login'})"
+
+waitForElement selector:"SL({button 'Create'})"

@@ -1,0 +1,4 @@
+url args:"http://localhost:4200/"
+
+assertPageTitle args:"Bugtracker2"
+waitForElement selector:"SL({button 'Cancel'})"
