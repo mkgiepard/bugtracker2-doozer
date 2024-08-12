@@ -1,0 +1,2 @@
+import args:"src/test/java/dev/softtest/bugtracker/doozer/scripts/login/login.doozer"
+takeScreenshot args:"bugreport-list-loaded"
