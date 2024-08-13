@@ -1,0 +1,12 @@
+import args:"src/test/java/dev/softtest/bugtracker/doozer/scripts/login/login.doozer"
+
+click selector:"SL({button 'Create'})"
+takeScreenshot? args:"bugreport-create-empty"
+
+type selector:"SL({textbox 'Title'})" args:"bugtracker2 does not work if there is power in the building"
+type selector:"SL({textbox 'Description'})" args:"Yesterday there was no power in our building and as a result the bugtracker2 was not working."
+takeScreenshot? args:"bugreport-create-filled"
+
+click selector:"SL({button 'Save'})"
+waitForElement selector:"SL({cell 'bugtracker2 does not work*'})"
+
