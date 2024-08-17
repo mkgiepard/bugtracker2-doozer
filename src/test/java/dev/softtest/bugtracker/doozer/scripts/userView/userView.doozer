@@ -1,0 +1,4 @@
+import args:"src/test/java/dev/softtest/bugtracker/doozer/scripts/login/login.doozer"
+
+click selector:"SL({button 'account settings'})"
+takeScreenshot args:"user-account-settings"

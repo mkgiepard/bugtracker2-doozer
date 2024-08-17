@@ -17,12 +17,13 @@ mvn test -Ddoozer.directory=src/test/java/dev/softtest/bugtracker/doozer/scripts
 - [x] bugReportListLoading
 - [x] bugReportView
 - [ ] bugReportEdit
-- [ ] bugReportCreate
+- [x] bugReportCreate
 - [ ] bugReportListActions
 - [ ] bugReportEditActions
 - [x] bugReportViewActions
-- [ ] bugReportDelete
+- [x] bugReportDelete
 - [ ] bugReportListSearch
 - [ ] bugReportSearch
 - [ ] userEdit
 - [ ] userList
+- [x] userView

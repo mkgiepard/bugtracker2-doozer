@@ -1,4 +1,4 @@
-package dev.softtest.bugtracker;
+package dev.softtest.bugtracker.doozer;
 
 import dev.softtest.doozer.DoozerTest;
 
