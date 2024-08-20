@@ -3,8 +3,7 @@ import args:"src/test/java/dev/softtest/bugtracker/doozer/scripts/login/login.do
 click selector:"SL({row '1002 bug *'} {img 'edit'})"
 takeScreenshot? args:"bugreport-edit-before"
 
-click selector:"SL({textbox 'Title'})"
-sendKeys args:" update title"
+type selector:"SL({textbox 'Title'})" args:" update title"
 click selector:"SL({radio 'P0'})"
 takeScreenshot? args:"bugreport-edit-after"
 
